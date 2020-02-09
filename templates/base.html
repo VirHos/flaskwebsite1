@@ -1,23 +1,12 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Videos – Stepik Media</title>
-  <script src="..."/>
-  <style link=".."/>
-</head>
+<html lang="ru">
+{% include 'header.html' %}
 <body>
+{% include 'navigator.html' %}
 
-  <header>
-    <nav>menu</nav>
-  </header>
+{% block content %} {% endblock %}
 
-  <div class="container">
-    {% block container %} {% endblock %}
-  </div>
-
-  <footer>
-    site footer
-  </footer>
-
+{% include 'footer.html' %}
 </body>
 </html>
+
