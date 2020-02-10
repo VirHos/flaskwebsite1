@@ -17,4 +17,5 @@ def tours(id):
     return render_template('tour.html', data=data, id=int(id))
 
 
-app.run()
+if __name__ == '__main__':
+    app.run()
